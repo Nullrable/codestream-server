@@ -21,7 +21,7 @@
 		"stop:docker:csrabbitmq": "docker stop csrabbitmq",
 		"rm:docker:csrabbitmq": "docker rm csrabbitmq",
 
-		"run:docker:csmongo": "docker run -d -p 27017:27017 --name csmongo -v csmongodata:/data/db mongo:3.4.9",
+		"run:docker:csmongo": "docker run -d -p 27017:27017 --name csmongo -v csmongodata:/data/db mongo:3.6",
 		"start:docker:csmongo": "docker start csmongo",
 		"stop:docker:csmongo": "docker stop csmongo",
 		"rm:docker:csmongo": "docker rm csmongo",

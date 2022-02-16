@@ -187,7 +187,6 @@ class StructuredConfigMongo extends StructuredConfigBase {
 		}
 		try {
 			this.mongoClient = await MongoClient.connect(this.options.mongoUrl, Object.assign({
-				reconnectTries: 0,
 				useNewUrlParser: true,
 				useUnifiedTopology: true,
 			}, this.options.mongoTlsOpts));
